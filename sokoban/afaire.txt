@@ -1,0 +1,59 @@
+Utiliser des pointeurs intelligent au lieu de new() comme ça pas besoin de delete()
+
+Classe de dessin pas dans le code -> faire une classe DisplayBoard je pense
+
+-----------------------------------------------
+
+Tache additionnelle :
+
+1. Animation des éléments en cours de déplacement : 
+
+2. Cases de téléportation : Fait
+
+3. Boites de couleur : Fait
+
+4. Boîtes légères : Fait
+
+5. Compteur de pas : Fait
+
+6. Meilleur score de pas : Fait
+
+7. Écran d’accueil : Fait
+
+8. Niveaux et sélection de niveau : Fait
+
+9. Limite de pas : Fait
+
+10. Déplacement automatique à la souris : Fait 
+
+11. Éditeur de niveau :
+
+12. Détection d’échec : Fait
+
+_________________________________________________________
+std::unique_ptr<Objet> monObjet = std::make_unique<Objet>();
+    fonctionAvecUniquePtr(std::move(monObjet));
+
+_____________________________________________________________
+
+________________________________________________________________
+________________________________________________________________
+
+
+________________________________________________________________
+________________________________________________________________
+MVC
+
+shared ptr pour passer les plateau 
+
+quand on stope une partie ou un menu ou le programme faut Delete() -> verifier la creation de boite legere de couleur validée après le delete implémenté
+
+
+_________________________________________________________
+
+A faire : 
+
+gerer fermeture fenetres
+
+classe dessin que les objets appellent 
+__
